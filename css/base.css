@@ -1,0 +1,84 @@
+.biu-sidebar {
+	position: relative;
+}
+.biu-sidebar i{
+	color: #FF3366;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: -12px;
+	padding-bottom:5px;
+
+}
+
+.biu-sidebar .biu-download i{
+	margin-left: -5px;
+}
+.biu-sidebar .biu-download:hover{
+	background: #F5CF4D;
+	color: #ff3366;
+}
+.biu-sidebar .biu-open-im:hover{
+	background: #F5CF4D;color: #ff3366;
+}
+.biu-sidebar .biu-coupon i{
+	margin-left: -8px;
+}
+.biu-sidebar .biu-coupon a{
+	text-decoration: none;
+}
+.biu-sidebar .biu-footprint i{
+	margin-left: -8px;
+}
+.biu-sidebar>div:hover{}
+.biu-sidebar{
+	width:38px;height:100%;border-left:1px solid #ddd;background-color:#F6F6F6;position:fixed;right:0;top:0;z-index:999}
+.biu-sidebar .biu-options{
+	position:absolute;top:62px;border-top:1px solid #ddd}
+.biu-sidebar .biu-options .biu-download,.biu-sidebar .biu-options .biu-cart,.biu-sidebar .biu-options .biu-coupon,.biu-sidebar .biu-options .biu-mark,.biu-sidebar .biu-options .biu-service,.biu-sidebar .biu-options .biu-footprint{
+	border-bottom:1px solid #ddd;line-height:1.2}
+.biu-sidebar .biu-options .biu-download, .biu-sidebar .biu-options .biu-cart a, .biu-sidebar .biu-options .biu-coupon a,.biu-sidebar .biu-options .biu-mark a,.biu-sidebar .biu-options .biu-service .biu-open-im,.biu-sidebar .biu-options .biu-footprint a{
+		display:block;width:10px;padding-top:36px;padding-right:14px;padding-left:14px;cursor:pointer;line-height:1.2}
+.biu-sidebar .biu-options .biu-cart a:hover,.biu-sidebar .biu-options .biu-coupon a:hover,.biu-sidebar .biu-options .biu-mark a:hover,.biu-sidebar .biu-options .biu-service a:hover,.biu-sidebar .biu-options .biu-footprint a:hover{
+	color:#ff3366;background-color:#F5CF4D}
+.biu-sidebar .biu-options .biu-download{height:70px;position:relative;padding-top:41px}
+.biu-sidebar .biu-options .biu-download span{
+	width:40px;
+	height:20px;
+	display:
+	inline-block;
+	text-decoration: none;
+	margin-top:12px;
+	margin-left:-18px;
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg)
+}
+
+
+.biu-sidebar .biu-options .biu-cart,.biu-sidebar .biu-options .biu-coupon,.biu-sidebar .biu-options .biu-service{position:relative}
+.biu-sidebar .biu-options .biu-cart a{height:61px;background:url(http://i.meilishuo.net/css/images/biuSidebar/biu-cart.png) no-repeat 10px 9px; text-decoration: none;}
+.biu-sidebar .biu-options .biu-cart .cart-num,.biu-sidebar .biu-options .biu-coupon .coupon-num{background-color:#F33866;color:#fff;padding:0 4px;border-radius:10px;display:block;position:absolute;top:4px;right:2px;z-index:1000}
+.biu-sidebar .biu-options .biu-service .biu-service-num-circle{background-color:#F33866;color:#fff;width:6px;height:6px;border-radius:50%;display:block;position:absolute;top:5px;right:5px;z-index:1000}
+.biu-sidebar .biu-options .biu-cart a:hover{background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-cart-white.png);background-repeat:no-repeat;background-position:10px 9px}
+.biu-sidebar .biu-options .biu-cart a:hover .cart-num{background-color:#fff;color:#F33866}.biu-sidebar .biu-options .biu-coupon a{height:56px;background:url(http://i.meilishuo.net/css/images/biuSidebar/biu-coupon.png) no-repeat 10px 15px}
+.biu-sidebar .biu-options .biu-coupon a:hover{background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-coupon-white.png);background-repeat:no-repeat;background-position:10px 15px}
+.biu-sidebar .biu-options .biu-coupon, .biu-mark a{
+	text-decoration: none;
+}
+.biu-sidebar .biu-options .biu-coupon a:hover .coupon-num{background-color:#fff;color:#F33866}.biu-sidebar .biu-options .biu-mark a{height:46px;background:url(http://i.meilishuo.net/css/images/biuSidebar/biu-mark-new.png) no-repeat 10px 15px;padding-top:41px}
+.biu-sidebar .biu-options .biu-mark a:hover{background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-mark-white.png);background-repeat:no-repeat;background-position:10px 15px}
+.biu-sidebar .biu-options .biu-service a{height:52px;background:url(http://i.meilishuo.net/css/images/biuSidebar/biu-service.png) no-repeat 11px 15px}
+.biu-sidebar .biu-options .biu-service a:hover{background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-service-white.png);background-repeat:no-repeat;background-position:11px 15px; color: #ff3366;}
+.biu-sidebar .biu-options .biu-service a:hover .service-num{background-color:#fff;color:#F33866}
+.biu-sidebar .biu-options .biu-footprint a{height:49px;background:url(http://i.meilishuo.net/css/images/biuSidebar/biu-footprint-new.png) no-repeat 12px 15px;padding-top:44px;text-decoration:none;}
+.biu-sidebar .biu-options .biu-footprint a:hover{background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-footprint-white-new.png);background-repeat:no-repeat;background-position:12px 15px;background-color:#F5CF4D}
+.biu-sidebar .biu-options .biu-download .mls-qrcode{width:140px;height:140px;padding:13px;border:1px solid #ddd;background-color:#fff;position:absolute;right:38px;top:0;display:none}
+.biu-sidebar .biu-options .biu-download .mls-qrcode:after,.biu-sidebar .biu-options .biu-download .mls-qrcode:before{border:solid transparent;content:'';height:0;left:100%;position:absolute;width:0}
+.biu-sidebar .biu-options .biu-download .mls-qrcode:after{border-width:10px;border-left-color:#fff;top:55px}
+.biu-sidebar .biu-options .biu-download .mls-qrcode:before{border-width:12px;border-left-color:#ddd;top:53px}
+.biu-sidebar .biu-options .biu-download .mls-qrcode img{position:absolute;left:0;right:0;margin:auto;bottom:0;top:0}
+.biu-sidebar .biu-go2top{position:fixed;right:0;bottom:0;width:38px;height:40px;text-align:center;border-top:1px solid #ddd;z-index:1000;display:none;background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-go2top.png);background-repeat:no-repeat;background-position:12px 16px;background-color:#F8F8F8}
+.biu-sidebar .biu-go2top:hover{background-color:#F33866;cursor:pointer;background-image:url(http://i.meilishuo.net/css/images/biuSidebar/biu-go2top-white.png);background-repeat:no-repeat;background-position:12px 16px;}
+.pro_ad_banner{display:block;width:1200px;margin-left:auto;margin-right:auto}.pro_ad_banner img{width:1200px}

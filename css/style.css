@@ -1,0 +1,446 @@
+@charset "utf-8";
+/*全局样式*/
+html{ font-size: 62.5%; }
+body, ul, li{
+ margin: 0;
+ font-size:1.2rem;
+ list-style: none;
+
+}
+
+.header{
+	border-bottom: 1px solid #f00;
+	padding-bottom: 50px;
+	position: relative;
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix{
+	overflow: hidden;
+	_zoom:1;
+}
+a{
+	color: #747474;
+}
+i{
+	padding-left: 5px;
+}
+/*Top部分*/
+.top{
+	overflow: hidden;
+	background: #F8F8F8;
+}
+.top .subuser{
+	position: absolute;
+}
+.top .subuser li{
+	text-align: left;
+}
+.top>ul>li .subuser{
+	display: none;
+}
+.top>ul>li:hover .subuser{
+	display: block;
+}
+
+.top .user a{
+	border-right: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.user{
+	margin-right: 420px;
+}
+.top>ul{
+	float: right;
+	margin-right: 40px;
+}
+.top>ul>li{
+	list-style: none;
+	float:left;
+	padding: 5px 10px;
+}
+.top>ul>li img{
+	background: #FF3366;
+}
+.top>ul>li a{
+	text-decoration: none;
+	border-right: 1px dashed #666;
+	padding-right: 20px;
+}
+.top li a:hover{
+	color: #FF3366;
+}
+/*logo部分*/
+.logo img{
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+/*搜索*/
+.search {
+	position: absolute;
+	overflow: hidden;
+	width: 960px; 
+	margin: 0 auto;
+	margin-left: 350px;
+	margin-top: 5px;
+
+}
+.search p a{
+	text-decoration: none;
+}
+.search h1{ 
+	float:left; 
+	padding: 30px 80px 30px 20px;
+}
+.search form{
+	margin-top: 0px;
+}
+.search ul{
+	overflow: hidden;
+	margin-top: 30px;
+	margin-left: -40px;
+}
+.search li{
+	float: left;
+	list-style: none;
+}
+.search li a{
+	text-decoration: none;
+	background: #FF3366;
+	display: block;
+	margin-right: 5px;
+	padding:5px 10px;
+}
+.search p{ 
+	color: #747474; 
+	padding: 10px 0;
+}
+.search p span{
+	color: #FF3366;
+}
+.search .text{ 
+	outline: none;
+	width: 360px; 
+	height: 28px; 
+	border:2px solid #FF3366; 
+	background:url(../images/10_009.gif) no-repeat 5px center;
+	padding-left: 20px;
+}
+.search .submit{ 
+	outline: none;
+	height: 34px; 
+	width: 80px; 
+	border: none; 
+	color: #fff; 
+	background-color: #FF3366; 
+	cursor: pointer;
+}
+.search .baby{
+	color: #fff;
+}
+.search .dp{
+	background: #F2F2F2;
+}
+
+/*banner*/
+.lunbo{
+	margin-left:19.5%; 
+	margin-top: -50px;
+	width:100%;
+}
+.p{
+	background: #ff3366;
+	width: 40px;
+	margin-left: 19.6%;
+	height: 37px;
+	line-height: 36px;
+	color: #fff;
+	margin-top: -12px;
+	font-weight: bold;
+
+}
+.vvv{
+	position: absolute;
+	background: #ff3366;
+	width:779px;
+	margin-left: 21.8%;
+	height: 37px;
+	line-height: 37px;
+	color: #fff;
+	margin-top: -37px;
+}
+.time{
+	position: absolute;
+	width: 100%;
+	margin-left: 79.6%;
+	margin-top: -44.8%;
+}
+.rightphoto{
+	position: absolute;
+	margin-left: 79.6%;
+	margin-top: -32.8%;
+}
+.rightphoto a{
+	display: block;
+
+}
+.rightphoto a img{
+	width: 71%;
+	height: 40%;
+	
+}
+.owl-theme .owl-controls{
+	margin-top: -30px;
+	position: relative;
+}
+
+.street{
+	position: relative;
+	
+}
+.street ul{
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 370px;
+}
+.street li{
+	float: left;
+	margin-left: 30px;
+}
+.street a{ 
+ text-decoration: none;
+ font-size: 1.4rem;
+ 
+ margin-right: 60px;
+ color: #666;
+}
+.street a:hover{
+	color: #F3C321;
+}
+
+.slidebar {
+	margin-top: 50px;
+
+}
+.slidebar .pho img{
+	padding: 0 5px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 285px;
+	height: 285px;
+}
+
+.slidebar .pho img:hover{
+	box-shadow:0 0 10px #f00;
+
+}
+/**/
+.Shines .box{
+
+	margin-right: -250px;
+	
+}
+.Shines .box .box1{
+
+}
+.Shines h2{
+	text-align: center;
+	padding: 40px 0;
+	font-size: 28px;
+	color: #666;
+}
+.Shines h2 span{
+	padding: 15px 0;
+	width: 40px;
+	position: absolute;
+	display: block;
+	margin-left: 580px;
+	font-size: 14px;
+	color: #E6E6E6;
+	border-bottom: 2px solid #E6E6E6;
+}
+.Shines div{ 
+			height:300px; 
+			width: 70%; 
+			float: left; 
+			position: relative;
+		}
+
+
+.Shines div img{ 
+			height: 100%; 
+			width: 620px;
+			-webkit-transition: all 0.5s;
+			-o-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+.Shines div h1{ position: absolute; left: 40px; top: 20px; color: white; }
+
+
+.Shines div:hover img { 
+			opacity: 0.8;
+			
+		}
+
+.br{
+	margin-left: 700px;
+}
+.br img{
+
+	width: 180px;
+	height: 300px;
+	padding: 0 3px;
+}
+
+.lt{
+	float: left;
+	margin-top: 3%;
+	width: 27%;
+	background: #F9F9F9;
+}
+.lt ul li{
+	float: left;
+	padding: 10px 15px;
+	width: 22%;
+}
+.lt ul li a{
+	text-decoration: none;
+	
+}
+.lt ul li a:hover{
+	color: #ff3366;
+}
+
+.ler img{
+	margin-top: 3%;
+	width: 170px;
+	height: 170px;
+	margin-left: 2.7%;
+	padding:0 0.5%;
+}
+
+
+.Shines .box {
+	position: absolute;
+	float: left;
+	width:50%;
+}
+.box1 div { 
+			position: absolute; 
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			padding: 5%;
+			color: white;
+		}
+
+.box1 div h3{
+	width: 80px;
+	padding: 5px;
+	background: #ff3366;
+}
+
+.box1 div p{ 
+			background: #ff3366;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 51%;
+			padding-left: 10px;
+			margin-top: 10px;
+			line-height: 2em; 
+
+			-webkit-transform: translateX(-150%);
+			-ms-transform: translateX(-150%);
+			-o-transform: translateX(-150%);
+			transform: translateX(-150%);
+			
+}
+		
+.box1:hover p:nth-of-type(1){
+			-webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		}
+.box1:hover p:nth-of-type(2){
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+		}
+.box1:hover p:nth-of-type(3){
+			-webkit-transition: 0.7s;
+			-o-transition: 0.7s;
+			transition: 0.7s;
+
+		}
+
+.box1:hover div p{ 
+			
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			-o-transform: translateX(0);
+			transform: translateX(0);
+			
+		}
+
+
+
+/*尾部*/
+.footer{
+	margin-top: 5%;
+	background:#f8f8f8;
+
+}
+.lastone{
+	border-bottom: 1px solid #E6E6E6;
+}
+.lastone ul{
+	float: left;
+	padding: 10px 20px;
+	margin: 30px 35px;
+	position: relative;
+}
+.lastone ul h3{
+	color: #666;
+	font-size: 1.6rem;
+}
+.lastone li{
+	height: 40px;
+	line-height: 40px;
+}
+.lastone a{
+	text-decoration: none;
+}
+.lastone a:hover{
+	color: #ff3366;
+}
+.lastone ul img{
+	padding-left: 10px;
+}
+.lastone .weibo li img{
+	position: absolute;
+	width: 15px;
+	padding-top: 12px;
+	margin-left: -10px;
+}
+.lastone .weibo li a{
+	padding-left: 20px;
+}
+
+.lasttwo p{
+	text-align: center;
+	color: #666;
+}
+
+/*返回顶部*/
+.headeline{
+	position: absolute;
+	color: #ff3366;
+}

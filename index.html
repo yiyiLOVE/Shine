@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Shine照明</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.timers-1.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.galleryview-3.0-dev.js"></script>
+
+<link type="text/css" rel="stylesheet" href="css/jquery.galleryview-3.0-dev.css" />
+<script class="js/jquery.1.4.2-min.js"></script>
+<script class="js/scrolltopcontrol.js"></script>
+	
+</head>
+<body>
+<!-- 头部 -->
+	<div class="header clearfix ">
+		<div class="top">
+			<ul>
+				<li class="user"><a href="#">注册</a>|<a href="#">登录</a></li>
+				<li><a href="#"><img src="images/03.jpg" alt="">阿猫来了<i class="fa fa-caret-down"></i></a></li>
+				<li><a href="#"><i class="fa fa-star-o"></i>&nbsp我的收藏</a></li>
+				<li><a href="#"><i class="fa fa-shopping-cart fa-"></i>&nbsp我的购物车</a></li>
+				<li><a href="#"><i class="fa fa-file-o"></i>&nbsp我的订单</a></li>
+				<li><a href="#">帮助中心<i class="fa fa-caret-down"></i></a></li>
+				<li><a href="#"><i class="fa fa-user-plus"></i>&nbsp商家后台</a></li>
+			</ul>
+		</div>
+		<div class="container">
+		<div class="logo">
+			<img src="images/logo.png" alt="">
+		</div>
+		<div class="search">
+			<ul>
+				<li><a href="#" class="baby">宝贝</a></li>
+
+				<li><a href="#" class="dp">店铺</a></li>
+			</ul>
+			<form sction="" method="post">
+            	<input name="" type="text" class="text"/><input name="" type="submit"/ value="搜索" class="submit">
+      </form>
+      <p><a href="#">套装</a> <a href="#"><span>针织衫</span></a> <a href="#">卫衣</a> <a href="#">短靴</a> <a href="#">围巾</a> <a href="#"><span>睡衣</span></a> <a href="#">小白鞋</a> <a href="#">运动鞋</a>  <a href="#"><span>双肩包</span></a> <a href="#">风衣</a> <a href="#">口红</a> <a href="#">高跟鞋</a></p>
+		</div>
+		</div>
+	</div>
+	<div class="street">
+ 	<ul>
+ 		<li>
+ 			<a href="#">首页</a>
+ 			<a href="#">品牌街</a>
+ 			<a href="#">官网直邮</a>
+ 			<a href="#">好物</a>
+ 		</li>
+ </ul>
+ </div>
+
+<!-- 左侧二级 菜单 -->
+	<div class="container">
+	<div class="hc_lnav jslist">
+	<div class="allbtn col-sm-4">
+		<h2><a href="#"><strong>&nbsp;</strong>全部商品分类<i>&nbsp;</i></a></h2>
+		<ul style="width:190px" class="jspop box">
+			<li class=a1>
+				<div class=tx><a href="#"><i>&nbsp;</i>各地名优茶</a> </div>
+				<dl>
+					<dt>热门</dt>
+					<dd>
+						<a href="#">西湖龙井</a>
+						<a href="#">金骏眉</a>
+						<a href="#">大红袍</a>
+						<a href="#">铁观音</a> 
+					</dd>
+				</dl>
+				<dl>
+					<dt>名茶</dt>
+					<dd>
+						<a href="#">红茶</a>
+						<a href="#">绿茶</a>
+						<a href="#">乌龙茶</a>
+						<a href="#">黑茶</a>
+						<a href="#">白茶 </a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="#">各地名优茶</a></h3>
+					<dl>
+						<dl>
+							<dt>绿茶</dt>
+							<dd>
+								<a class="ui-link" href="#">西湖龙井</a>
+								<a class="ui-link"  href="#">龙井</a>
+								<a class="ui-link" href="#">黄山毛峰</a>
+								<a class="ui-link"   href="#">安吉白茶</a> 
+								<a class="ui-link" href="#">其他绿茶</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>乌龙茶</dt>
+							<dd>
+								<a class="ui-link" href="">铁观音</a> 
+								<a class="ui-link"  href="">大红袍</a>
+								<a class="ui-link" href="">水仙</a>
+								<a class="ui-link"  href="">肉桂</a> 
+								<a class="ui-link" href="">台湾乌龙</a>
+								<a class="ui-link" href="">其他乌龙茶</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>红茶</dt>
+							<dd>
+								<a class="ui-link" href="" >金骏眉</a>
+								<a class="ui-link"  href="">正山小种</a>
+								<a class="ui-link"  href="">祁门红茶</a>
+								<a class="ui-link"   href="">坦洋工夫</a>
+								<a class="ui-link" href="javascript:;">其他红茶</a>
+								<a class="un ui-link"    href="">政和工夫</a>
+								<a class="ui-link"   href="">滇红工夫</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>黑茶</dt>
+							<dd>
+								<a class="ui-link" href="">白沙溪黑茶</a> 
+								<a class="ui-link"  href="">普洱茶饼</a> 
+								<a class="ui-link" href="">普洱沱茶</a>
+								<a class="ui-link"  href="">普洱茶砖</a>
+								<a class="ui-link"  href="">普洱散茶</a> 
+								<a class="ui-link" href="">其他黑茶</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>白茶</dt>
+							<dd>
+								<a class="ui-link" href="#">白牡丹</a>
+								<a class="ui-link"  href="">白毫银针</a> 
+								<a class="ui-link" href="">寿眉</a>
+								<a class="ui-link" href="">其他白茶</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>品牌</dt>
+						<dd>
+							<a  href="">滋恩</a>
+							<a  href="">远荣</a>
+							<a  href="">顶峰</a>
+							<a  href="">公泰</a>
+							<a  href="">一品堂</a>
+							<a  href="">好吉</a> 
+							<a   href="">绿雪芽</a>
+							<a  href="">台湾梅山制茶</a>
+							<a href="" >白沙溪</a>
+							<a href="">联兴茶叶</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>价格</dt>
+						<dd>
+							<a  href="">100元及以下</a> 
+							<a  href="">100-300元</a>
+							<a  href="">300元及以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>净含量</dt>
+						<dd>
+							<a  href="" >50g及以下</a> 
+							<a   href="">51-100g</a> 
+							<a  href="">101-250g</a> 
+							<a   href="">250g以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>包装</dt>
+						<dd>
+							<a href="">经济自饮装</a>
+							<a href="" >精美礼品装</a>
+						</dd>
+					</dl>
+					<div class=clr></div>
+			
+				</div>
+			</li>
+			<li class=a2>
+				<div class=tx><a href=""><i>&nbsp;</i>花草保健茶</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">大麦茶</a> 
+						<a href="">苦荞茶</a>
+						<a href="" >玫瑰花茶</a> 
+						<a href="">雪菊</a>
+						<a href="" >蜂蜜木瓜粉</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">花草保健茶</a></h3>
+					<dl>
+						<dl>
+							<dt>瘦身</dt>
+							<dd>
+								<a class="ui-link" href="" >玫瑰荷叶茶</a>
+								<a class="ui-link"    href="">玄米茶</a> 
+								<a  class="ui-link" href="">兰香子</a> 
+								<a class="ui-link"   href="" >纤维泡腾片</a>
+								<a class="ui-link"   href="" >青梅苹果酸</a>
+								<a class="ui-link"   href="">三草茶</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>美容</dt>
+							<dd>
+								<a class="ui-link" href="" >法兰西玫瑰</a>
+								<a class="ui-link"  href=""  >冻干柠檬片</a> 
+								<a class="un ui-link"   href="">果粒茶</a>
+								<a    class="ui-link" href="" >大麦茶</a>
+								<a class="ui-link"   href="">蜂蜜抹茶粉</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>丰胸</dt>
+							<dd>
+								<a class="ui-link" href="" >木瓜葛根粉</a> 
+								<a class="ui-link"    href=""  >蜂蜜木瓜粉</a>
+								<a class="ui-link"   href="">红酒木瓜丽人饮</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>品牌</dt>
+						<dd>
+							<a href="">与花香</a>
+							<a href="">美丽快攻</a>
+							<a href="" >顶峰</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>价格</dt>
+						<dd>
+							<a href="" >100元及以下</a>
+							<a   href="" >100-300元</a>
+							<a  href="">300元及以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>净含量</dt>
+						<dd>
+							<a href="">50g及以下</a> 
+							<a href="">51-100g</a>
+							<a href="">101-250g</a>
+							<a href="">250g以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>包装</dt>
+						<dd>
+							<a href="">经济自饮装</a>
+							<a href="">精美礼品装</a>
+						</dd>
+					</dl>
+					<div class=clr></div>
+					
+				</div>
+			</li>
+			<li class=a3>
+				<div class=tx><a href=""><i>&nbsp;</i>精选茶具</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="" >功夫茶具</a> 
+						<a href="">个人杯</a> 
+						<a href="">茶宠</a>
+						<a href="">茶叶罐</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">精选茶具</a></h3>
+					<dl>
+						<dl>
+							<dt>陶瓷</dt>
+							<dd>
+								<a class="ui-link" href="">茶叶罐</a>
+								<a class="ui-link"  href="">功夫茶具</a> 
+								<a class="ui-link" href="" >茶壶</a>
+								<a class="ui-link"  href="">茶宠</a>
+								<a class="ui-link" href=""  >茶杯</a>
+								<a class="ui-link"  href="">茶具礼盒</a> 
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>品牌</dt>
+						<dd>
+							<a  href="">恒越</a>
+							<a  href="">卓越</a>
+							<a   href="">国尊陶瓷</a> 
+							<a  href="">宏远达</a>
+							<a href="">福万利</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>价格</dt>
+						<dd>
+							<a href="">100元及以下</a>
+							<a  href="">100-300元</a>
+							<a  href="">300元及以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>包装</dt>
+						<dd>
+							<a href="">经济自饮装</a>
+							<a  href="">精美礼品装</a>
+						</dd>
+					</dl>
+					<div class=clr></div>
+					
+				</div>
+			</li>
+			<!-- <li class=a4>
+				<div class=tx><a href=""><i>&nbsp;</i>可口茶食</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">橄榄</a>
+						<a   href="">冰糖杨梅</a>
+						<a  href="">酸甜梅</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">可口茶食</a></h3>
+					<dl>
+						<dl>
+							<dt>干果</dt>
+							<dd>
+								<a class="ui-link" href="">杏仁</a>
+								<a class="ui-link"   href="">瓜子</a>
+								<a  class="un ui-link" href="">开心果</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>零食</dt>
+							<dd>
+								<a class="ui-link"  href="">水晶柠檬片</a>
+								<a class="ui-link"  href="">方块酥</a> 
+								<a class="ui-link" href="javascript:;">凤梨酥</a>
+								<a  class="ui-link" href="">燕麦巧克力</a>
+							</dd>
+						</dl>
+					</dl>
+					<dl>
+						<dt>品牌</dt>
+						<dd>
+							<a href="">赛园</a>
+							<a  href="">新味</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>价格</dt>
+						<dd>
+							<a  href="">100元及以下</a>
+							<a  href="">100-300元</a>
+							<a  href="">300元及以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>净含量</dt>
+						<dd>
+							<a  href="" >50g及以下</a> 
+							<a   href="">51-100g</a>
+							<a  href="">101-250g</a>
+							<a  href="">250g以上</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>包装</dt>
+						<dd>
+							<a  href="">经济自饮装</a>
+							<a   href="">精美礼品装</a>
+						</dd>
+					</dl>
+					<div class=clr></div>
+					
+				</div> -->
+			<!-- </li> -->
+		</ul>
+	</div>
+</div>
+  
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</div>
+
+
+
+
+ <!-- 轮播图 -->
+<div class="lunbo">
+<ul id="myGallery">
+		<li><img src="images/ban1.jpg" alt="Lone Tree Yellowstone" />
+		<li><img src="images/ban2.jpg" alt="Is He Still There?!" />
+		<li><img src="images/ban3.jpg" alt="Noni Nectar For Green Gecko" />
+		<li><img src="images/ban4.jpg" alt="Flight of an Eagle Owl" />
+		<li><img src="images/ban1.jpg" alt="Winter Lollipops" />
+		<li><img src="images/ban2.jpg" alt="Day of Youth" />
+		<li><img src="images/ban3.jpg" alt="Sunbathing Underwater" />
+		<li><img src="images/ban4.jpg" alt="Untitled" />
+		<li><img src="images/ban1.jpg" alt="New Orleans Streetcar" />
+		<li><img src="images/ban2.jpg" alt="By The Wind of Chance" />
+		<li><img src="images/ban3.jpg" alt="Fishing on the Cloud" />
+		<li><img src="images/ban4.jpg" alt="Blue Lagoon" />
+		<li><img src="images/ban1.jpg" alt="Time" />
+	</ul>
+</div>
+<!-- 文字跑马效果 -->
+<div class=p>
+<p>公告:</p>
+</div>
+<div class="vvv">
+<marquee scrollamount="3" behavior="right">
+滚动内容中您可以放文字、单张或者多张图片代码、表格代码、模板代码等等一切您希望滚的代码
+</marquee>       
+ </div>
+
+ <!-- 右侧倒计时 -->
+<script type="text/javascript">
+    $.extend($.fn,{
+        //懒人建站 http://www.51xuediannao.com/
+        fnTimeCountDown:function(d){
+            this.each(function(){
+                var $this = $(this);
+                var o = {
+                    hm: $this.find(".hm"),
+                    sec: $this.find(".sec"),
+                    mini: $this.find(".mini"),
+                    hour: $this.find(".hour"),
+                    day: $this.find(".day"),
+                    month:$this.find(".month"),
+                    year: $this.find(".year")
+                };
+                var f = {
+                    haomiao: function(n){
+                        if(n < 10)return "00" + n.toString();
+                        if(n < 100)return "0" + n.toString();
+                        return n.toString();
+                    },
+                    zero: function(n){
+                        var _n = parseInt(n, 10);//解析字符串,返回整数
+                        if(_n > 0){
+                            if(_n <= 9){
+                                _n = "0" + _n
+                            }
+                            return String(_n);
+                        }else{
+                            return "00";
+                        }
+                    },
+                    dv: function(){
+                        //d = d || Date.UTC(2050, 0, 1); //如果未定义时间，则我们设定倒计时日期是2050年1月1日
+                        var _d = $this.data("end") || d;
+                        var now = new Date(),
+                            endDate = new Date(_d);
+                        //现在将来秒差值
+                        //alert(future.getTimezoneOffset());
+                        var dur = (endDate - now.getTime()) / 1000 , mss = endDate - now.getTime() ,pms = {
+                            hm:"000",
+                            sec: "00",
+                            mini: "00",
+                            hour: "00",
+                            day: "00",
+                            month: "00",
+                            year: "0"
+                        };
+                        if(mss > 0){
+                            pms.hm = f.haomiao(mss % 1000);
+                            pms.sec = f.zero(dur % 60);
+                            pms.mini = Math.floor((dur / 60)) > 0? f.zero(Math.floor((dur / 60)) % 60) : "00";
+                            pms.hour = Math.floor((dur / 3600)) > 0? f.zero(Math.floor((dur / 3600)) % 24) : "00";
+                            pms.day = Math.floor((dur / 86400)) > 0? f.zero(Math.floor((dur / 86400)) % 30) : "00";
+                            //月份，以实际平均每月秒数计算
+                            pms.month = Math.floor((dur / 2629744)) > 0? f.zero(Math.floor((dur / 2629744)) % 12) : "00";
+                            //年份，按按回归年365天5时48分46秒算
+                            pms.year = Math.floor((dur / 31556926)) > 0? Math.floor((dur / 31556926)) : "0";
+                        }else{
+                            pms.year=pms.month=pms.day=pms.hour=pms.mini=pms.sec="00";
+                            pms.hm = "000";
+                            //alert('结束了');
+                            return;
+                        }
+                        return pms;
+                    },
+                    ui: function(){
+                        if(o.hm){
+                            o.hm.html(f.dv().hm);
+                        }
+                        if(o.sec){
+                            o.sec.html(f.dv().sec);
+                        }
+                        if(o.mini){
+                            o.mini.html(f.dv().mini);
+                        }
+                        if(o.hour){
+                            o.hour.html(f.dv().hour);
+                        }
+                        if(o.day){
+                            o.day.html(f.dv().day);
+                        }
+                        if(o.month){
+                            o.month.html(f.dv().month);
+                        }
+                        if(o.year){
+                            o.year.html(f.dv().year);
+                        }
+                        setTimeout(f.ui, 1);
+                    }
+                };
+                f.ui();
+            });
+        }
+    });
+</script>
+<div class="time">
+<div style="padding: 50px;"></div>
+<div style="background:#ff3366;  WIDTH: 14.4%;  color:#fff;FONT-FAMILY: arial; TEXT-ALIGN: center;">
+    <P style="font-size:.8em;line-height:2em;">距双11活动开始还有：</P>
+    <div id="fnTimeCountDown" data-end="2016/11/10 23:59:59">
+    	<img src="" alt="">
+        <span class="year">00</span>年
+        <span class="month">00</span>月
+        <span class="day">00</span>天
+        <span class="hour">00</span>时
+        <span class="mini">00</span>分
+        <span class="sec">00</span>秒
+        <span class="hm">000</span>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    $("#fnTimeCountDown").fnTimeCountDown("2018/07/08 18:45:13");
+</script>
+<!-- 右侧图片 -->
+<div class="rightphoto">
+	<a href="#"><img src="images/pho1.jpg" alt=""></a>
+	<a href="#"><img src="images/pho2.jpg" alt=""></a>
+</div>
+<!-- 右侧菜单 -->
+	<div class="biu-sidebar" style="height: 7744px;">
+            <div class="biu-options">
+              <div class="biu-download"><i class="fa fa-mobile fa-2x"></i>下载
+                <span>APP</span>
+                <div class="mls-qrcode" style="display: none;">
+                  <img src="images/erweima.png"></div>
+              </div>
+              <div class="biu-cart">
+                <a href="mycart.html" target="_blank">
+                  <span class="cart-num biu-cart-num"></span><i class="fa fa-shopping-cart fa-2x"></i>购物车</a>
+              </div>
+              <div class="biu-service">
+                <a class="biu-open-im">
+                  <span class="service-num biu-service-num"></span><i class="fa fa-comment-o fa-2x"></i>消息</a>
+              </div>
+              <div class="biu-coupon">
+                <a href="coupon.html#" target="_blank">
+                  <span class="coupon-num biu-coupon-num"></span><i class="fa fa-bookmark-o fa-2x"></i>优惠券</a>
+              </div>
+              <div class="biu-mark">
+                <a href="mylike.html#" target="_blank"><i class="fa fa-star-o fa-2x"></i>收藏</a></div>
+              <div class="biu-footprint">
+                <a href="footprint.html#" target="_blank"><i class="fa fa-user-md fa-2x"></i>足迹</a></div>
+            </div>
+           
+   </div>
+
+
+<div class="slidebar">
+<div class="container">
+		<div class="pho">
+			<a href="#"><img src="images/pho1.jpg" alt=""></a>
+			<a href="#"><img src="images/pho2.jpg" alt=""></a>
+			<a href="#"><img src="images/pho3.jpg" alt=""></a>
+			<a href="#"><img src="images/pho4.jpg" alt=""></a>
+
+		</div>
+</div>
+
+	<div class="Shines container">
+		<h2>时尚灯具<span>shine</span></h2>
+		<div class="box">
+		<div class="box1">
+			<a href="#"><img src="images/box1.jpg" alt=""></a>
+			
+			<div>
+					<h3>即刻选购</h3>
+					<p>优雅印花，简约时尚</p>
+					<p>告别昏暗的夜晚</p>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="br">
+			<a href="#"><img src="images/pho2.jpg" alt=""></a>
+			<a href="#"><img src="images/pho2.jpg" alt=""></a>
+			<a href="#"><img src="images/pho3.jpg" alt=""></a>
+		</div>
+<div class="container">
+<div class="lt clearfix">
+	<ul>
+		<li><a href="#">小黑裙</a></li>
+		<li><a href="#">碎花连衣裙</a></li>
+		<li><a href="#">牛仔半身裙</a></li>
+		<li><a href="#">长裙</a></li>
+		<li><a href="#">雪纺裙</a></li>
+		<li><a href="#">荷叶边美裙</a></li>
+		<li><a href="#">蕾丝裙</a></li>
+		<li><a href="#">半身裙</a></li>
+		<li><a href="#">早秋上新</a></li>
+		<li><a href="#">针织美裙</a></li>
+		<li><a href="#">半身裙</a></li>
+		<li><a href="#">针织美裙</a></li>
+		<li><a href="#">早秋上新</a></li>
+		<li><a href="#">碎花连衣裙</a></li>
+		<li><a href="#">牛仔半身裙</a></li>
+	</ul>
+</div>
+<div class="ler">
+	<a href="#"><img src="images/pho1.jpg" alt=""></a>
+	<a href="#"><img src="images/pho2.jpg" alt=""></a>
+	<a href="#"><img src="images/pho3.jpg" alt=""></a>
+	<a href="#"><img src="images/pho2.jpg" alt=""></a>
+</div>
+</div>
+</div>
+
+<!-- 尾部 -->
+<div class="footer clearfix">
+	<div class="lastone container clearfix">
+		<ul>
+		<h3>买家帮助</h3>
+			<li><a href="#">新手指南</a></li>
+			<li><a href="#">服务保障</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">购物帮助</a></li>
+		</ul>
+		<ul>
+		<h3>商家帮助</h3>
+			<li><a href="#">商家入驻</a></li>
+			<li><a href="#">商家后台</a></li>
+			<li><a href="#">商家推广</a></li>
+		</ul>
+		<ul>
+		<h3>关于我们</h3>
+			<li><a href="#">关于shine</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+		<ul class="weibo">
+		<h3>关注我们</h3>
+			<li><img src="images/sina.png" alt=""><a href="#">新浪微博</a></li>
+			<li><img src="images/qzone.png" alt=""><a href="#">QQ空间</a></li>
+			<li><img src="images/tencent.png" alt=""><a href="#">腾讯微博</a></li>
+		</ul>
+		<ul>
+			<h3>shine微信服务号</h3>
+			<li><img src="images/7e_61hjl8kjfjfagkg3cdaj05fghck9c_100x100.png" alt="#"></li>
+		</ul>
+		<ul>
+			<h3>shine客户端下载</h3>
+			<li><img src="images/7e_74j23d2a5f5j3bj31h70375gbeec1_100x100.png" alt=""></li>
+		</ul>
+
+		</div>
+		<div class="lasttwo">
+			<p>Copyright ©2016 Meilishuo.com   电信与信息服务业务经营许可证100798号  经营性网站备案信息  </p>
+			<p>京ICP备11031139号  京公网安备110108006045   客服电话：4000-800-577  文明办网文明上网举报电话：010-82615762   违法不良信息举报中心</p>
+		</div>
+</div>
+	<script type="text/javascript">
+	$(function(){
+		$('#myGallery').galleryView();
+	});
+    </script>
+    <div class="headeline ">
+<br><br><br><br><br><br><br><br>
+<!--演示内容开始--></div>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script></p>
+
+</body>
+</html>

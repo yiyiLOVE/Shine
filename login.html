@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/detailes.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script class="js/jquery.1.4.2-min.js"></script>
+<script class="js/scrolltopcontrol.js"></script>
+
+</head>
+<body>
+	<!-- 头部 -->
+    <div class="header clearfix ">
+        <div class="top clearfix">
+            <ul>
+                <li class="user"><a href="register.html">注册</a>|<a href="login.html">登录</a></li>
+                <li><a href="#"><img src="images/03.jpg" alt="">阿猫来了<i class="fa fa-caret-down"></i></a></li>
+                <li><a href="#"><i class="fa fa-star-o"></i>&nbsp我的收藏</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart fa-"></i>&nbsp我的购物车</a></li>
+                <li><a href="#"><i class="fa fa-file-o"></i>&nbsp我的订单</a></li>
+                <li><a href="#">帮助中心<i class="fa fa-caret-down"></i></a></li>
+                <li><a href="#"><i class="fa fa-user-plus"></i>&nbsp商家后台</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="logo clearfix">
+                <img src="images/logo.png" alt="">
+                <span> <a href="#" id="suggest"><i class="fa fa-calendar-o"   fa-2x aria-hidden="true" ></i>&nbsp;"登录页面"改进建议</a></span>
+            </div>
+        </div>
+    </div>
+    <!--改进建议弹出框-->
+    <div id="loginbox">
+        <div class="row2">
+            改进建议窗口<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row3">
+            <textarea rows="10" cols="40"></textarea><br/>
+        </div>
+        <div class="row3">
+             
+        <input id="loginbtn" class="input-reg" type="button" name="register" value="提交" onclick="window.location='login.html';" />
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+    $(function ($) {
+        //弹出登录
+        $("#suggest").hover(function () {
+            $(this).stop().animate({
+                opacity: '1'
+            }, 600);
+        }, function () {
+            $(this).stop().animate({
+                opacity: '0.6'
+            }, 1000);
+        }).on('click', function () {
+            $("body").append("<div id='mask'></div>");
+            $("#mask").addClass("mask").fadeIn("slow");
+            $("#loginbox").fadeIn("slow");
+        });
+        //关闭
+        $(".close_btn").hover(function () { $(this).css({ color: 'black' }) }, function () { $(this).css({ color: '#999' }) }).on('click', function () {
+            $("#loginbox").fadeOut("fast");
+            $("#mask").css({ display: 'none' });
+        });
+    });
+    </script>
+
+
+       <!--登录成功弹出框-->
+    <div id="LoginBox">
+        <div class="row1">
+            登录成功窗口<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn">×</a>
+        </div>
+        <div class="row">
+            <div class="success">
+                <div class="information">
+                    <p>恭喜：登录成功！</p>
+                    <p><a href="index.html">点此进入用户中心&gt;&gt;</a></p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+     <script type="text/javascript">
+    $(function ($) {
+        //弹出窗口
+        $("#example").hover(function () {
+            $(this).stop().animate({
+                opacity: '1'
+            }, 600);
+        }, function () {
+            $(this).stop().animate({
+                opacity: '0.6'
+            }, 1000);
+        }).on('click', function () {
+            $("body").append("<div id='mask'></div>");
+            $("#mask").addClass("mask").fadeIn("slow");
+            $("#LoginBox").fadeIn("slow");
+        });
+       
+       
+         //关闭
+        $(".close_btn").hover(function () { $(this).css({ color: 'black' }) }, function () { $(this).css({ color: '#999' }) }).on('click', function () {
+            $("#LoginBox").fadeOut("fast");
+            $("#mask").css({ display: 'none' });
+        });
+    });
+    </script>  
+
+
+    <!-- 中间 -->
+    <div class="main">
+        <div class="conten">
+            <div class="login">
+                <h2>用户登陆</h2>
+                <form method="post" action="login-success.html">
+                    <dl>
+                        <dt>用户名：</dt>
+                        <dd>
+                            <input class="input-text" type="text" name="userName" value="username" onfocus="if(this.value !=''){this.value=''}"onblur="if(this.value !='username'){this.value='username'}"/>
+                            <span>当前用户不存在！</span>
+                        </dd>
+                        <dt>密　码：</dt>
+                        <dd>
+                            <input class="input-text" type="text" name="passWord" value="password"  onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}"  />
+                            <span>密码过于简单！</span>
+                        </dd>
+                        <dt></dt>
+                        <dd class="button">
+                            <input id="example" class="input-btn" type="button" name="submit" value="" onclick="fun()"/>
+                            <input class="input-reg" type="button" name="register" value="" onclick="window.location='register.html';" />
+                        </dd>
+                    </dl>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- 尾部 -->
+    <div class="footer clearfix">
+        <div class="lastone container clearfix">
+            <ul>
+            <h3>买家帮助</h3>
+                <li><a href="#">新手指南</a></li>
+                <li><a href="#">服务保障</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">购物帮助</a></li>
+            </ul>
+            <ul>
+            <h3>商家帮助</h3>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">商家后台</a></li>
+                <li><a href="#">商家推广</a></li>
+            </ul>
+            <ul>
+            <h3>关于我们</h3>
+                <li><a href="#">关于shine</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <ul class="weibo">
+            <h3>关注我们</h3>
+                <li><img src="images/sina.png" alt=""><a href="#">新浪微博</a></li>
+                <li><img src="images/qzone.png" alt=""><a href="#">QQ空间</a></li>
+                <li><img src="images/tencent.png" alt=""><a href="#">腾讯微博</a></li>
+            </ul>
+            <ul>
+                <h3>shine微信服务号</h3>
+                <li><img src="images/7e_61hjl8kjfjfagkg3cdaj05fghck9c_100x100.png" alt="#"></li>
+            </ul>
+            <ul>
+                <h3>shine客户端下载</h3>
+                <li><img src="images/7e_74j23d2a5f5j3bj31h70375gbeec1_100x100.png" alt=""></li>
+            </ul>
+
+            </div>
+            <div class="lasttwo">
+                <p>Copyright ©2016 Meilishuo.com   电信与信息服务业务经营许可证100798号  经营性网站备案信息  </p>
+                <p>京ICP备11031139号  京公网安备110108006045   客服电话：4000-800-577  文明办网文明上网举报电话：010-82615762   违法不良信息举报中心</p>
+            </div>
+    </div>
+        <script type="text/javascript">
+        $(function(){
+            $('#myGallery').galleryView();
+        });
+        </script>
+        <div class="headeline ">
+    <br><br><br><br><br><br><br><br>
+    <!--演示内容开始--></div>
+    <script type="text/javascript" src="js/scrolltopcontrol.js"></script></p>
+    </body>
+</html>
